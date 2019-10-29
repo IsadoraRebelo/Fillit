@@ -6,15 +6,15 @@
 #    By: dfreire <dfreire@student.codam.nl>           +#+                      #
 #                                                    +#+                       #
 #    Created: 2019/03/05 10:45:18 by ihering-       #+#    #+#                 #
-#    Updated: 2019/03/12 14:59:22 by dfreire       ########   odam.nl          #
+#    Updated: 2019/10/29 13:34:14 by ihering-      ########   odam.nl          #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = fillit
-SRC = ./fillit_files/open_file.c ./fillit_files/validate_tetriminos.c\
-	./fillit_files/list_tetriminos.c ./fillit_files/solver.c\
-	./fillit_files/print_solution.c ./fillit_files/main.c
-HEADER = ./fillit_files
+SRC = ./srcs/open_file.c ./srcs/validate_tetriminos.c\
+	./srcs/list_tetriminos.c ./srcs/solver.c\
+	./srcs/print_solution.c ./srcs/main.c
+HEADER = ./srcs
 
 all: $(NAME)
 

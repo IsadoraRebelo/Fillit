@@ -17,5 +17,6 @@ make fclean
 ```
 - Usage: 
 ```
-./fillit [ tetriminofile ]
+./fillit tetriminofile
 ```
+You will find in this repository two tests.

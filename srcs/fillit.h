@@ -6,7 +6,7 @@
 /*   By: dfreire <dfreire@student.codam.nl>           +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2019/03/01 18:40:45 by dfreire        #+#    #+#                */
-/*   Updated: 2019/03/12 14:57:37 by dfreire       ########   odam.nl         */
+/*   Updated: 2019/10/30 11:03:17 by ihering-      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 # define FILLIT_H
 # define BLOCK '#'
 # define EMPTY '.'
-# include "../libft/libft.h"
+# include "../libft/include/libft.h"
 # include <fcntl.h>
 # define BUFF_SIZE 547
 
